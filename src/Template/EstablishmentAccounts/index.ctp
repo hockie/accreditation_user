@@ -6,7 +6,7 @@
 ?>
 <div class="card">
       <div class="card-header">
-		<h4><?= __('Establishment Accounts') ?> <span class="float-md-right"><a type="button" class="btn btn-info btn-md" data-toggle="modal" href="#myModal"><i class='fa fa-plus'></i> Add <?= __('Establishment Accounts') ?></a></span></h4>
+		 <h4><?= __('Establishment Accounts') ?> <!--<span class="float-md-right"><a type="button" class="btn btn-info btn-md" data-toggle="modal" href="#myModal"><i class='fa fa-plus'></i> Add <?= __('Establishment Accounts') ?></a>--></span></h4>
       </div>
       <div class="card-body">	
 	<div class="table-responsive">

@@ -28,9 +28,10 @@ public function initialize(){
             'contain' => ['EstablishmentAccounts', 'AccountTypes', 'Users']
         ];
 		$status = $this->request->getQuery('status');
-		$payments_status = $this->Payments->find()->where(['open_close'=>$status]);
+		$payments_status = $this->Payments->find('all')->where(['open_close'=>$status]);
+		$establishment_accounts = $this->Payments->EstablishmentAccounts->find();
         //$payments = $this->paginate($this->Payments);
-		// $this->set(compact('payments'));
+		 $this->set(compact('establishment_accounts'));
 		$this->set('payments',$this->paginate($payments_status));
 		
 		

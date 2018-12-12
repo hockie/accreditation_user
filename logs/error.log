@@ -4257,3 +4257,562 @@ Stack Trace:
 #26 {main}
 
 
+2018-12-12 01:56:46 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 18]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2018-12-12 01:56:46 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')', expecting ']' in C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp on line 18
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-12-12 01:56:51 Warning: Warning (2): number_format() expects parameter 1 to be double, string given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 18]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 18
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 01:58:38 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 01:58:38 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 01:58:38 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 01:58:55 Error: Fatal Error (4): syntax error, unexpected ',', expecting ']' in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2018-12-12 01:58:55 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',', expecting ']' in C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp on line 30
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-12-12 01:59:43 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 01:59:43 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 01:59:43 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:00:16 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:00:16 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:00:16 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:00:39 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:00:39 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:00:39 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:00:45 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:00:45 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:00:45 Warning: Warning (2): number_format() expects parameter 2 to be long, array given in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 30]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 153
+number_format - [internal], line ??
+include - APP/Template\Payments\index.ctp, line 30
+Cake\View\View::_evaluate() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1239
+Cake\View\View::_render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 1200
+Cake\View\View::render() - ROOT\Vendor\cakephp\cakephp\src\View\View.php, line 802
+Cake\Controller\Controller::render() - ROOT\Vendor\cakephp\cakephp\src\Controller\Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - ROOT\Vendor\cakephp\cakephp\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - ROOT\Vendor\cakephp\cakephp\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-12-12 02:08:58 Error: Fatal Error (1): Cannot use object of type Cake\ORM\Query as array in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 56]
+Request URL: /payments?status=open
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2018-12-12 02:08:58 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\Query as array in C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp on line 56
+Request URL: /payments?status=open
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-12-12 02:09:00 Error: Fatal Error (1): Cannot use object of type Cake\ORM\Query as array in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 56]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2018-12-12 02:09:00 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\Query as array in C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp on line 56
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-12-12 02:09:13 Error: Fatal Error (1): Cannot use object of type Cake\ORM\Query as array in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 56]
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2018-12-12 02:09:13 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\Query as array in C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp on line 56
+Request URL: /payments?status=open
+Referer URL: http://localhost/accreditation_user/users
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-12-12 02:12:34 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 56]
+Request URL: /payments?status=open
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2018-12-12 02:12:34 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array in C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp on line 56
+Request URL: /payments?status=open
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-12-12 02:12:51 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp, line 56]
+Request URL: /payments?status=open
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - ROOT\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2018-12-12 02:12:51 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array in C:\xampp\htdocs\accreditation_user\src\Template\Payments\index.ctp on line 56
+Request URL: /payments?status=open
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\Vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
