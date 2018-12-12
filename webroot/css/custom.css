@@ -1,0 +1,72 @@
+/* your styles go here */
+/*
+* ==========================================================
+*       MAIN FOOTER
+* ==========================================================
+*/
+footer.main-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background:#272668;
+  padding: 10px 0;
+}
+
+footer.main-footer p {
+  font-size: 0.9em;
+  color: #fff;
+  margin: 0;
+}
+rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+ p.print{
+	 
+	font-size: 18px!important;	 
+	 
+ }
+ div.row.printInvoice{
+	 margin-left:10px;
+	 margin-top:50px;
+	 margin-right:10px;
+ }
+ 
+ .invalid-tin{
+	 display:none;
+	 width:100%;
+	 margin-top:.25rem;
+	 font-size:80%;
+	 color:#dc3545;
+ }
+ .modal.show .modal-dialog{
+	/* max-width:1400px;
+	 font-size:12px;*/
+ }

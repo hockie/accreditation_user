@@ -1,0 +1,202 @@
+2018-08-23 07:08:32 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.document_types' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'document_types', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('document_types', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('document_types')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'document_types', 'DocumentTypes')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('DocumentTypes')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\BakeShell.php(272): Bake\Shell\Task\ModelTask->main('DocumentTypes')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('document_types', 0)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\BakeShell.php(273): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all('document_types')
+#12 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2018-08-23 07:08:51 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.downloadable_files' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'downloadable_fi...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('downloadable_fi...', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('downloadable_fi...')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'downloadable_fi...', 'DownloadableFil...')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('DownloadableFil...')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\BakeShell.php(272): Bake\Shell\Task\ModelTask->main('DownloadableFil...')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('downloadable_fi...', 0)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\BakeShell.php(273): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all('downloadable_fi...')
+#12 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2018-08-23 07:09:32 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.document_types' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'document_types', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('document_types', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('document_types')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'document_types', 'DocumentTypes')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('DocumentTypes')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\BakeShell.php(272): Bake\Shell\Task\ModelTask->main('DocumentTypes')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('document_types', 0)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\BakeShell.php(273): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all('document_types')
+#12 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2018-08-28 05:34:29 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.ownership_informations' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'ownership_infor...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('ownership_infor...', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('ownership_infor...')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'ownership_infor...', 'OwnershipInform...')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('OwnershipInform...')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ModelTask->main('ownership_infor...')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-08-28 05:34:57 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.ownership_informations' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'ownership_infor...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('ownership_infor...', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('ownership_infor...')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(288): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(142): Bake\Shell\Task\TemplateTask->_loadController()
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\TemplateTask->main('ownership_infor...')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#10 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-08-28 05:37:52 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.ownership_informations' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'ownership_infor...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('ownership_infor...', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('ownership_infor...')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'ownership_infor...', 'OwnershipInform...')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('OwnershipInform...')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ModelTask->main('ownership_infor...')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-08-28 05:43:05 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.ownership_informations' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'ownership_infor...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('ownership_infor...', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('ownership_infor...')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'ownership_infor...', 'OwnershipInform...')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('OwnershipInform...')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ModelTask->main('ownership_infor...')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-08-28 05:43:10 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.ownership_informations' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'ownership_infor...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('ownership_infor...', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('ownership_infor...')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'ownership_infor...', 'OwnershipInform...')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('OwnershipInform...')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ModelTask->main('ownership_infor...')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-08-28 05:47:53 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.managing_companies' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'managing_compan...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('managing_compan...', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('managing_compan...')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'managing_compan...', 'ManagingCompani...')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('ManagingCompani...')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ModelTask->main('managing_compan...')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-08-29 01:19:21 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.establishment_account' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'establishment_a...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('establishment_a...', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('establishment_a...')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'establishment_a...', 'EstablishmentAc...')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('EstablishmentAc...')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ModelTask->main('establishment_a...')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-08-31 02:47:44 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'accreditation_3.municipality_cities' doesn't exist in C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'municipality_ci...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('municipality_ci...', Array)
+#2 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('municipality_ci...')
+#3 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'municipality_ci...', 'MunicipalityCit...')
+#7 C:\xampp\htdocs\accreditation_user\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('MunicipalityCit...')
+#8 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ModelTask->main('municipality_ci...')
+#9 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(339): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\accreditation_user\vendor\cakephp\cakephp\src\Console\CommandRunner.php(161): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 C:\xampp\htdocs\accreditation_user\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
