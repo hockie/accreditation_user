@@ -39,7 +39,7 @@ class EstablishmentDetailsTable extends Table
         parent::initialize($config);
 
         $this->setTable('establishment_details');
-        $this->setDisplayField('id');
+        $this->setDisplayField('establishment_name');
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
