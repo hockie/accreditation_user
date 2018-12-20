@@ -24,19 +24,32 @@ public function initialize(){
      */
     public function index()
     {
+		
         $this->paginate = [
             'contain' => ['EstablishmentAccounts', 'AccountTypes', 'Users']
         ];
 		$status = $this->request->getQuery('status');
-		$payments_status = $this->Payments->find('all')->where(['open_close'=>$status]);
-		$establishment_accounts = $this->Payments->EstablishmentAccounts->find();
+		$payments_status = $this->Payments->find('all')->where(['Payments.open_close'=>$status]);
+		$payment_est_acc_id = $this->Payments->find()->select(['establishment_account_id'])->where(['Payments.open_close'=>$status]);
+		
+		
+		//get Estblishment Account Table by ID
+		$establishmentAccountsTable = TableRegistry::get('EstablishmentAccounts');
+		$establishmentAccounts = $establishmentAccountsTable->find()->select(['id','establishment_detail_id'])->where(['id in '=>[$payment_est_acc_id]]);
+		
+		
+		
         //$payments = $this->paginate($this->Payments);
-		 $this->set(compact('establishment_accounts'));
+		 $this->set(compact('establishment_accounts','establishmentAccounts'));
 		$this->set('payments',$this->paginate($payments_status));
 		
-		
-		
     }
+	
+	public function getEstablishmentName($array = null){
+		
+		
+		
+	}
 
     /**
      * View method

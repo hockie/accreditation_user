@@ -44,6 +44,7 @@ class EstablishmentAccountsTable extends Table
      */
     public function initialize(array $config)
     {
+		
         parent::initialize($config);
 
         $this->setTable('establishment_accounts');
@@ -53,9 +54,10 @@ class EstablishmentAccountsTable extends Table
         $this->addBehavior('Timestamp');
 
         $this->belongsTo('EstablishmentDetails', [
-            'foreignKey' => 'establishment_detail_id',
-            'joinType' => 'INNER'
+            'foreignKey' => 'establishment_detail_id'
         ]);
+		
+		
         $this->belongsTo('OwnerInformations', [
             'foreignKey' => 'owner_information_id'
         ]);
@@ -96,6 +98,7 @@ class EstablishmentAccountsTable extends Table
             'foreignKey' => 'cda_permit_id'
         ]);
     }
+	
 
     /**
      * Default validation rules.

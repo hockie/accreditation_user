@@ -53,4 +53,10 @@
 </div>
 </div>
 </div>
-<?php print_r($payments['items']); ?>
+<?php 
+//echo $establishmentAccounts->id[47]->email;
+foreach($establishmentAccounts as $establishmentAccount):
+echo $establishmentAccount->id(47). "<br />";
+endforeach;
+ ?>
+

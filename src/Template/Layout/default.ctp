@@ -59,6 +59,7 @@ $cakeDescription = 'DOT - Online Accreditation System';
 	<?= $this->Html->script('datepicker/jquery.datetimepicker.full.js') ?>
 	<?= $this->Html->script('printThis.js') ?>	
 	<?= $this->Html->script('jquery.PrintArea.js') ?>	
+
     <script>
 	  
 	 $(".rslides").responsiveSlides({
